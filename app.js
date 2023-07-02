@@ -11,6 +11,7 @@ function getNextPage() {
     }
 
     PokeSercvice.getPage(actualPageindex).then(pokemons => {
+
         displayPokemons(pokemons);
     })
 }

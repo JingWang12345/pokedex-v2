@@ -16,7 +16,7 @@ class PokeSercvice{
      }
 
      static getDetails(pokemonNames){
-        const requests = [];
+      const requests = [];
       for (const pokemon of pokemonNames) {
          const name = pokemon.name;
          const url = this.BASE_URL + 'pokemon/' + name;
